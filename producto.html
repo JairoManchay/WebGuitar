@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA: Producto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logo Imagen" class="header__imagen">
+                </a>
+
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="index.html">Inicio</a>
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="blog.html">Blog</a>
+                    <a class="navegacion__enlace" href="tienda.html">Tienda</a>
+                </nav>
+            </div> <!-- header barra -->
+        </div>
+    </header>
+
+    <main class="__contenedor">
+        <div class="producto">
+            <img src="img/guitarra_01.jpg" alt="Guitarra 1" class="producto__imagen">
+
+            <div class="producto__contenido">
+                <h3 class="producto__nombre">Lukather</h3>
+                <p class="producto__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod
+                    minima neque laudantium atque obcaecati dolor, repellendus voluptates impedit quae.</p>
+                <p class="producto__precio">$299</p>
+
+                <form action="" class="producto__formulario">
+                    <label for="" class="producto__label">Cantidad: </label>
+                    <select name="" id="" class="producto__cantidad">
+                        <option value="">-- Seleccione --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+
+                    <input type="submit" class="producto__agregar--carrito" value="Agregar Carrito">
+                </form>
+            </div>
+        </div> <!-- producto -->
+
+
+        <div class="acordeon">
+            <h1 class="acordeon__heading">Caracteristicas de la guitarra</h1>
+
+            <div class="acordeon__contenido">
+                <h3 class="acordeon__nombre">Historia de la guitarra</h3>
+                <p class="acordeon__descripcion break-word">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit
+                    est accusamus fugiat, eos nulla laborum. Vel delectus quo, expedita officiis cumque minus quae
+                    doloribus aperiam vitae debitis dolorum amet nemo?</p>
+            </div> <!-- Acordeon-contenido -->
+
+            <div class="acordeon__contenido">
+                <h3 class="acordeon__nombre">Caracteristicas</h3>
+                <ol class="lista-caracteristica acordeon__descripcion">
+                    <li><span>Nombre</span> Lukather</li>
+                    <li><span>Color</span> Rojo Amaderado</li>
+                    <li><span>Peso</span> 12kg</li>
+                    <li><span>Facilidad de uso</span> Si</li>
+                    <li><span>Adaptable</span> Si</li>
+                </ol>
+            </div> <!-- Acordeon-contenido -->
+
+            <div class="acordeon__contenido">
+                <h3 class="acordeon__nombre">Guitarras similares</h3>
+                
+                <div class="lista acordeon__descripcion">
+                    <section>
+                        <span class="lista__nombre">White</span>
+                        <img src="img/guitarra_06.jpg" alt="" class="lista__imagen">
+                    </section>
+                    <section>
+                        <span class="lista__nombre">SRV</span>
+                        <img src="img/guitarra_02.jpg" alt="" class="lista__imagen">
+                    </section>
+                    <section>
+                        <span class="lista__nombre">Borland</span>
+                        <img src="img/guitarra_03.jpg" alt=""  class="lista__imagen">
+                    </section>
+                </div>
+            </div> <!-- Acordeon-contenido -->
+
+
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__contenedor footer__contenido">
+            <nav class="footer__nav">
+                <a class="footer__enlace" href="#">Inicio</a>
+                <a class="footer__enlace" href="#">Nosotros</a>
+                <a class="footer__enlace" href="#">Blog</a>
+                <a class="footer__enlace" href="#">Tienda</a>
+            </nav>
+
+            <p class="footer__copyright">Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/acordeon.js"></script>
+</body>
+
+</html>
